@@ -35410,19 +35410,18 @@ bn6(a){var s=new A.De()
 s.ahV(a)
 return s},
 aD0(a,b){return A.bn8(a,b)},
-bn8(a,b){var s=0,r=A.D(t.PT),q,p=2,o,n,m,l,k,j,i,h,g,f
+bn8(a,b){var s=0,r=A.D(t.PT),q,p=2,o,n,m,l,k,j,i,h,g
 var $async$aD0=A.E(function(c,d){if(c===1){o=d
 s=p}while(true)switch(s){case 0:p=4
 n=A.he("https://"+a+"/.well-known/stellar.toml")
 if(b==null){A.FT()
-i=new A.nz(A.F(t.lZ))}else i=b
-m=i
-h=t.N
-l=A.mC($.no(),h,h)
+j=new A.nz(A.F(t.lZ))}else j=b
+m=j
+i=t.N
+l=A.mC($.no(),i,i)
 J.hG(l,"Content-Type","text/plain")
-k=l
 s=7
-return A.u(m.nx("GET",n,k).b6(0,new A.aD1(),t.PT),$async$aD0)
+return A.u(m.nx("GET",n,null).b6(0,new A.aD1(),t.PT),$async$aD0)
 case 7:l=d
 q=l
 s=1
@@ -35431,9 +35430,9 @@ p=2
 s=6
 break
 case 4:p=3
-f=o
-j=A.as(f)
-l=A.a8("Stellar toml not found "+J.et(j))
+g=o
+k=A.as(g)
+l=A.a8("Stellar toml not found "+J.et(k))
 throw A.c(l)
 s=6
 break
